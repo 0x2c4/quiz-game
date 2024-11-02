@@ -4,11 +4,11 @@ To start the game, in root folder type:
 python main.py
 ```
 
-You can update the question list by updating the ```data.py``` file, just 
-follow the same structure of the dictionary in it:
-```
-{"text": "A slug's blood is green.", "answer": "True"}
-```
+You can update the question list by updating the ```data.py``` file.
+The question data is a list, that holds multiple dictionaries inside of it.
+New questions can be downloaded from ```https://opentdb.com``` using the API section.
+Generate a new set of questions.
+
 Where the 'text' key will hows the question, and the 'answer' key will
 hold the correct answer.
 
